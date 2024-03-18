@@ -1,0 +1,42 @@
+.textos-selecionados {
+  position: absolute;
+  top: 170px;
+  left: 350px;
+  justify-items: center;
+  background-color: rgba(0, 0, 0, 0.1)
+}
+
+.container-pai {
+  min-height: 1100px;
+}
+
+.card-body {
+  background-color: #e7dbbf;
+  width: 939px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.link-offset-2 {
+  color: #1b67eb;
+  font-weight: 500;
+}
+
+
+.card-body {
+  margin-bottom: 0;
+}
+
+.card {
+  border: none;
+  box-shadow: none;
+}
+
+.pagination {
+  position: absolute;
+  top: 800px;
+  left: 1140px;
+  justify-items: center;
+}

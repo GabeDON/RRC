@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Inicial</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Barra Superior -->
+  <section class="barra-superior">
+    <header class="p-3 mb-3 border-bottom">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+          <img src="../general-images/ifba-icon.png" style="height: 50px; object-fit: cover;">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+        </div>
+
+        <ul class="nav col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 link-secondary">RRC</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Artigos</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Livros</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Resumos</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+  </section>
+  <div class="container-pai">
+    <!-- Card para pesquisa-->
+    <section class="cards-pesquisa">
+      <div class="card-pesquisa">
+        <div class="card w-50" style="background-color: #E3C592;">
+          <div class="card-body">
+            <h5 class="card-title">Recursos da caatinga</h5>
+            <p class="card-text">Acesse os principais textos científicos sobre os recursos naturais da caatinga.</p>
+            <a href="../pagina-pesquisa/search-page.html" class="btn btn-primary"
+              style="background-color: #746D42; border:none; padding: 10px 20px;">Acessar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Cards de textos -->
+      <div class="card-container">
+        <div class="card" style="width: 25rem;background-color: #E3C592;margin-top: 0;">
+          <img src="images/horta-texto.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" style="font-size: larger;">Cisternas: Preservação da água </h6>
+            <p class="card-text" style="font-size: large;">A utilização de Cisternas no armazenamento de água em
+              períodos
+              de seca.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #746D42; border:none">Ler Texto</a>
+          </div>
+        </div>
+        <div class="card" style="width: 25rem;background-color: #E3C592;margin-top: 0;">
+          <img src="images/cisterna-texto.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" style="font-size: larger;">Hortas Inteligentes: Métodos de Plantio</h6>
+            <p class="card-text" style="font-size: large;">Produção de inseticidas orgânicos e biodegradáveis.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #746D42; border:none">Ler Texto</a>
+          </div>
+        </div>
+        <div class="card" style="width: 25rem;background-color: #E3C592;margin-top: 0;">
+          <img src="images/planta-texto.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title" style="font-size: larger;">Hortas Agroecológicas</h6>
+            <p class="card-text" style="font-size: large;">Desenvolvimento de Horta Agroecológica para produção
+              alimentar.
+            </p>
+            <a href="#" class="btn btn-primary" style="background-color: #746D42; border:none">Ler Texto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tópicos Individuais -->
+    <section class="topicosIndividuais">
+      <div class="topicos-individuas">
+        <div class="container px-4 py-5" style="margin: 0 0s; padding: 0 0; text-align: center;">
+          <h2 class=" pb-2 border-bottom">Tópicos:</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Água</h3>
+                <p align="justify">A importância da água em diferentes contextos, desde a biodiversidade até
+                  a
+                  saúde humana.
+                  Textos a cerca dos desafios na gestão e conservação da água e um uso mais responsável e sustentável.
+                </p>
+                <a href="#" class="btn btn-primary" style="background-color: #746D42; border: none;">
+                  Acessar Textos
+                </a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Meio Ambiente</h3>
+                <p align="justify">A preservação do meio ambiente no centro das principais discussões da modernidade.
+                  Textos
+                  tratando de
+                  sustentabilidade e a nossa relação com o mundo.
+
+                </p>
+                <a href="#" class="btn btn-primary" style="background-color: #746D42; border: none;">
+                  Acessar Textos
+                </a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Tecnologia</h3>
+                <p align="justify">A inovações tecnológicas e suas diversas influências na construção de nosso ambiente.
+                  Textos sobre o
+                  desenvolvimento de novas ferramentas e pesquisas com soluções para nosso dia-a-dia.
+                </p>
+                <a href="#" class="btn btn-primary" style="background-color: #746D42; border: none;">
+                  Acessar Textos
+                </a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Saúde</h3>
+                <p align="justify">A saúde como tópico principal de discussões e soluções para promover o bem-estar de
+                  populações. Textos
+                  abordando desafios e iniciativas para implementação do direito básico. </p>
+                <a href="#" class="btn btn-primary" style="background-color: #746D42; border: none;">
+                  Acessar Textos
+                </a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Agricultura e Pecuária</h3>
+                <p align="justify">Agricultura e pecuária em nosso meio ambiente. Textos discutindo o convívio com a
+                  caatinga e principais
+                  técnicas de plantio e manejo. </p>
+                <a href="#" class="btn btn-primary" style="background-color: #746D42; border: none;">
+                  Acessar Textos
+                </a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Alimentação</h3>
+                <p align="justify">
+                  Alimentação de populações é afetada por conflitos politícos, territóriais e sociais. Textos tratando
+                  iniciativas, políticas públicas e sociais, visando garantir segurança alimentar.
+                </p>
+                <a href="#" class="btn btn-primary" style="background-color: #746D42; border: none;">
+                  Acessar Textos
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Rodapé -->
+  <section class="rodapé">
+    <footer class="py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap" />
+              </svg>
+            </a>
+            <p class="text-body-secondary">&copy; 2º ano B - IFBA 2024</p>
+          </div>
+
+          <div class="col mb-3">
+            <h5><b>Instituições de Ensino</b></h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Universidades</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Centros de Pesquisa</a>
+              </li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Institutos de Ensino</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5><b>Multimídia</b></h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Filmes</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Vídeos</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Músicas</a></li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5><b>Textos</b></h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Artigos</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Livros</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">TCCs</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

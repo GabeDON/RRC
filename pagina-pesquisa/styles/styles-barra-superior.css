@@ -1,0 +1,54 @@
+.navbar {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  right: 50px;
+  justify-items: center;
+  border-radius: 8px;
+}
+
+
+.resultado {
+  align-items: center;
+  background-color: #C73E1D;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.container-pai {
+  min-height: 1500px;
+}
+
+.dropdown {
+  display: inline;
+  margin-right: 20px;
+}
+
+.dropdown-toggle {
+  width: 200px;
+  text-align: left;
+}
+
+.botao-pesquisar {
+  position: absolute;
+  right: 8px;
+  background-color: #AFA07E;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #3E5641;
+  color: #3E5641;
+  width: 200px;
+  padding: 5px 5px;
+  transition: all 0.25s;
+}
+
+.botao-pesquisar:hover {
+  background-color: #3E5641;
+  color: white;
+}
+
+.botao-pesquisar:active {
+  opacity: 0.7;
+}
