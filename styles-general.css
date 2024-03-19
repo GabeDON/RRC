@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+  background-color: #E3C592;
+  bottom: 0;
+  left: 0;
+}
+
+header {
+  background-color: rgba(227, 199, 152, 0.8);
+  border: none;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.container-pai {
+  background-image: url("../general-images/background-caatinga.jpg");
+  min-height: 2400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

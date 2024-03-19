@@ -28,8 +28,6 @@
   background-color: transparent;
 }
 
-.article-title:hover,
-.article-title:focus,
 .btn-toggle:hover,
 .btn-toggle:focus {
   color: rgba(var(--bs-emphasis-color-rgb), .85);
