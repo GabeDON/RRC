@@ -1,0 +1,22 @@
+.navbar {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  right: 50px;
+  justify-items: center;
+  border-radius: 8px;
+}
+
+.container-pai {
+  min-height: 1500px;
+}
+
+.dropdown {
+  display: inline;
+  margin-right: 20px;
+}
+
+.dropdown-toggle {
+  background-color: #443627;
+  text-align: left;
+}

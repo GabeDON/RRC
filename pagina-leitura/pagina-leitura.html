@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Inicial</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles-opcoes-pagina-leitura.css">
+  <link rel="stylesheet" href="styles-barra-superior.css">
+  <link rel="stylesheet" href="../styles-general.css">
+</head>
+
+<body>
+  <!-- Barra Superior -->
+  <section class="barra-superior">
+    <header class="p-3 mb-3">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+          <img src="../general-images/ifba-icon.png" style="height: 50px; object-fit: cover;">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+        </div>
+
+        <ul class="nav col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">RRC</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Artigos</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Livros</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Resumos</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+  </section>
+  <div class="container-pai">
+    <!-- Barra de Pesquisa -->
+    <section class="barra-pesquisa">
+      <div class="container-pai">
+        <nav class="navbar navbar-expand-lg" style="background-color: #AFA07E">
+          <div class="container-fluid">
+            <div class="entrada-pesquisa">
+              <form class="d-flex" role="search" style="width:950px">
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    PDF
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                    <li><button class="dropdown-item" href="#" data-value="DowloadPDF">Dowload PDF (pt-br)</button></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #443627;">
+                    Resumo
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                    <li><button class="dropdown-item" href="#" data-value="Resumo(pt)">Resumo (Português)</button></li>
+                    <li><button class="dropdown-item" href="#" data-value="Menos popular">Resumo (Inglês)</button></li>
+
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #443627;">
+                    Ordenar por
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item" href="#" data-value="Mais popular">Mais popular</a></li>
+                    <li><a class="dropdown-item" href="#" data-value="Menos popular">Menos popular</a></li>
+                    <li><a class="dropdown-item" href="#" data-value="Mais novos">Mais novos</a></li>
+                    <li><a class="dropdown-item" href="#" data-value="Mais antigos">Mais antigos</a></li>
+                    <li><a class="dropdown-item" href="#" data-value="Mais comentados">Mais comentados</a></li>
+                  </ul>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </section>
+  </div>
+  <!-- Rodapé -->
+  <section class="rodapé">
+    <footer class="py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap" />
+              </svg>
+            </a>
+            <p class="text-body-secondary">&copy; 2º ano B - IFBA 2024</p>
+          </div>
+
+          <div class="col mb-3">
+            <h5><b>Instituições de Ensino</b></h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Universidades</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Centros de Pesquisa</a>
+              </li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Institutos de Ensino</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5><b>Multimídia</b></h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Filmes</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Vídeos</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Músicas</a></li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5><b>Textos</b></h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Artigos</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Livros</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">TCCs</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script src="https://kit.fontawesome.com/59da6b1de7.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+</body>

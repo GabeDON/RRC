@@ -1,7 +1,8 @@
 .textos-selecionados {
   position: absolute;
   top: 170px;
-  left: 350px;
+  right: 50px;
+  left: 370px;
   justify-items: center;
   background-color: rgba(0, 0, 0, 0.1)
 }
@@ -12,7 +13,7 @@
 
 .card-body {
   background-color: #e7dbbf;
-  width: 939px;
+  width: 100%;
   margin-bottom: 20px;
   padding: 15px;
   border-radius: 5px;
