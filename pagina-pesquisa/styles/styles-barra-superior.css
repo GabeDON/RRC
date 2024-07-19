@@ -29,12 +29,13 @@
 .dropdown-toggle {
   width: 200px;
   text-align: left;
+  background-color: #443627;
 }
 
 .botao-pesquisar {
   position: absolute;
   right: 8px;
-  background-color: #AFA07E;
+  background-color: rgb(227, 201, 157);
   border-radius: 5px;
   border-style: solid;
   border-color: #3E5641;
