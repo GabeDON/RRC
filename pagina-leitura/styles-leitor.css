@@ -4,4 +4,8 @@
   left: 30px;
   right: 30px;
   top: 170px;
+  padding: 20px 10px;
+}
+.p {
+  font-size: 14px;
 }
