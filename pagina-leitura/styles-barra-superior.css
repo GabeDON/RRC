@@ -7,21 +7,26 @@
   border-radius: 8px;
 }
 
+.card {
+  border: none;
+  margin: 10px;
+  flex: 1 1 300px;
+  max-height: 200px;
+  background-color: rgba(227, 201, 157);
+}
 .fa-regular,
 .fa-brands {
   margin: 3px 4px;
 }
-
-.custom-nav {
-  /*width: 100px;*/
+.selecionar{
+  color: #fd0000;
 }
-
 .custom-nav a {
   color: #443627;
 }
 
 .container-pai {
-  min-height: 1500px;
+  min-height: 400px;
   justify-items: center;
 }
 

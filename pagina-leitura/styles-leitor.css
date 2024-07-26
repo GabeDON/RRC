@@ -6,6 +6,10 @@
   top: 170px;
   padding: 20px 10px;
 }
-.p {
-  font-size: 14px;
+.btn{
+  background-color: #3E5641;
+  border: none;
+}
+.botoes-dowload{ 
+  justify-content: center;
 }
